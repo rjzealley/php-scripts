@@ -18,7 +18,7 @@ if ($res) {
 
 /* missingNumber($nos)
 $nos - array of numbers with one missing
-Returns $m (int)
+returns false or missing number
 */ 
 function missingNumber($nos) {
 	// Store length of string for conveience
